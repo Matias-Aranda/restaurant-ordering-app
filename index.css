@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Smythe, sans-serif;
+} 
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#hero {
+    background-image: url(images/hamburguer.png);
+    background-size: cover;
+    width: 100%;
+    height: 165px;  
+    margin: 0;
+    padding: 1px;
+    color: white;
+}
+
+#hero * {
+    font-weight: 400; 
+}
+
+#hero h1 {
+    font-size: 39px;
+    line-height: 24px;
+    margin: 45px 45px 20px 45px;
+}
+
+#hero h2 {
+    font-size: 22.4216px;
+    line-height: 14px;
+    margin: 0px 45px;
+}
+
+.product {
+    border-bottom: 2px solid #D2D2D2;
+    padding: 50px 0;
+    display: flex;
+    margin: 0 50px;
+    align-items: center;
+}
+
+.product-emoji {
+    font-size: 60px;
+    width: 70px;
+}
+
+.product-details{
+    margin: 0 30px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.product-details * {
+    margin: 0;
+}
+
+.product-btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 24px;
+    color: #3C3C3C;
+    margin-left: auto;
+    border: solid #D2D2D2 1px;
+    border-radius: 50%;
+    padding: 10px 13px 13px 13px;
+}
+
+.product-btn:hover {
+    background-color: #DEDEDE;
+    cursor: pointer;
+}
+
+#order{
+    text-align: center;
+    margin: 45px 50px;
+}
+
+#order-list{
+    margin-top: 65px;
+    border-bottom: solid #393333;
+}
+
+.order-item{
+    display: flex;
+}
+
+#order h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    margin:0
+}
+
+
+.item-remove{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    margin: 0 0 0 10px;
+}
+
+.item-price{
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 0 auto;
+}
+
+#total-price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+
+#total-price p{
+    margin: 0;
+}
+
+.green-btn {
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+#modal-container{
+    position: fixed;
+    top: 0;
+    left:0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+#modal{
+    padding: 5px;
+    margin: 90px auto;
+    width: 524px;
+    height: 542.24px;
+    background: #FFFFFF;
+    border-radius: 3.88991px;
+    box-shadow: 20px 20px 90px 70px rgba(0, 0, 0, 0.2);
+}
+
+#modal h1{
+    text-align: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 40px;
+}
+
+input{
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #757575;
+    width: 430px;
+    height: 71.3px;
+    margin: 10px;
+    padding: 0px 20px;
+}
+
+form{
+    margin: 50px 0px;
+}
+
+.pay-btn{
+    margin-top: 40px;
+    width: 90%;
+    border: none;
+}
+
+.order-btn{
+    padding: 18px 180px;
+}
+
+.hidden{
+    display: none;
+}
+
+#thanks-div{
+    display: flex;
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+#thanks-div h1{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+    text-align: center;
+}
